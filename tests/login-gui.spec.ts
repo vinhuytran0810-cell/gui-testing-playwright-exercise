@@ -16,8 +16,7 @@ test('GUI-01: Trạng thái ban đầu của form', async ({ page }) => {
   throw new Error('Chưa hoàn thành GUI-01: thay dòng này bằng các assertion TODO.');
 });
 
-// Hai bộ dữ liệu kiểm tra PHẢN HỒI HIỂN THỊ khi thiếu dữ liệu.
-// Không kiểm tra xác thực tài khoản, session, API hoặc cơ sở dữ liệu.
+
 const cases = [
   {
     id: 'GUI-02', username: '', password: '',

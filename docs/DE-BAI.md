@@ -16,8 +16,6 @@ Nhiệm vụ của bạn là hoàn thiện một script Playwright để kiểm 
 - GUI có hiển thị đúng thông báo lỗi khi thiếu dữ liệu hay không;
 - thông báo lỗi có biến mất sau khi người dùng đóng hay không.
 
-> **Phạm vi:** Bài này chỉ kiểm tra trạng thái và phản hồi của GUI. Không kiểm tra đăng nhập thành công, thuật toán xác thực, session, API, database hoặc logic backend.
-
 ---
 
 ## 2. Yêu cầu cần kiểm tra
@@ -160,25 +158,3 @@ await locator.click();
 
 - File `tests/login-gui.spec.ts` đã hoàn thành.
 - Kết quả chạy test hiển thị **3 passed**; nếu chưa pass, giữ nguyên kết quả lỗi để cùng phân tích khi chữa bài.
-
----
-
-## 6. Thang điểm tham khảo
-
-| Nội dung | Điểm |
-|---|---:|
-| GUI-01: kiểm tra đầy đủ trạng thái ban đầu | 3 |
-| Dùng chung logic cho hai bộ dữ liệu | 2 |
-| Kiểm tra error visible và đúng nội dung | 3 |
-| Đóng banner và kiểm tra hidden | 2 |
-| **Tổng** | **10** |
-
----
-
-## 7. Nếu làm xong sớm — không bắt buộc
-
-Đổi tạm **một** giá trị `expected` thành chuỗi sai và chạy lại test.
-
-Quan sát thông báo `Expected` / `Received`, sau đó khôi phục expected đúng.
-
-Mục đích của phần này là thấy rằng **test FAIL có thể đến từ expected sai trong test**, không phải lúc nào cũng là bug của website.

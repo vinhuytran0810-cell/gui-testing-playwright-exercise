@@ -8,10 +8,6 @@ Bài thực hành kiểm thử GUI trang Login của SauceDemo bằng Playwright
 
 ---
 
-## Cách 1 — GitHub Codespaces
-
-Đây là cách được khuyến nghị.
-
 ### Bước 1
 
 Trên repository GitHub, chọn:
