@@ -1,0 +1,12 @@
+{
+  "name": "saucedemo-gui-seminar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test --project=chromium",
+    "test:solution": "playwright test --config=playwright.solution.config.ts",
+    "test:list": "playwright test --list",
+    "report": "playwright show-report --host 0.0.0.0 --port 9323"
+  },
+  "devDependencies": { "@playwright/test": "1.64.1" }
+}

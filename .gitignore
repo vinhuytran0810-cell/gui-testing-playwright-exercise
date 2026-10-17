@@ -1,0 +1,15 @@
+node_modules/
+.cache/
+test-results/
+playwright-report/
+blob-report/
+
+solutions/
+docs/DAP-AN.md
+docs/HUONG-DAN-HUY.md
+docs/KIEM-CHUNG.md
+playwright.solution.config.ts
+
+.env
+.DS_Store
+Thumbs.db

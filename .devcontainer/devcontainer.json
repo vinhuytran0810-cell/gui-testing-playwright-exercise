@@ -1,0 +1,13 @@
+{
+  "name": "GUI Seminar - Playwright",
+  "image": "mcr.microsoft.com/playwright:v1.64.1-noble",
+  "remoteUser": "root",
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [9323],
+  "portsAttributes": {
+    "9323": { "label": "Playwright HTML report", "onAutoForward": "notify", "visibility": "private" }
+  },
+  "customizations": {
+    "vscode": { "extensions": ["ms-playwright.playwright"] }
+  }
+}
