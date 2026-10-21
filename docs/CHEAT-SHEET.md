@@ -31,18 +31,4 @@ Kiểm tra banner hiện trước, rồi so sánh `data.expected`. Click nút c�
 
 </details>
 
-<details>
-<summary>Gợi ý 3 — Test vẫn fail?</summary>
 
-Đọc Expected/Received và ca nào fail. Kiểm tra dấu nháy, chữ hoa, `await`, locator và dòng `throw` còn sót. Nếu không tìm thấy browser hoặc không truy cập được website, nhờ người hỗ trợ kiểm tra môi trường; không sửa expected để né lỗi.
-
-</details>
-
-<details>
-<summary>Đáp án mẫu — chỉ mở sau khi đã thử</summary>
-
-Xem [mã đáp án](../solutions/login-gui.spec.ts) và [giải thích](DAP-AN.md).
-
-</details>
-
-**Tự kiểm tra:** banner hiện nhưng text sai vẫn là lỗi GUI. Test PASS chưa đánh giá toàn bộ bố cục, UX hay responsive.

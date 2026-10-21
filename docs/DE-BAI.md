@@ -111,47 +111,7 @@ Kết quả mong đợi:
 
 ---
 
-## 4. Cheat sheet
-
-### Kiểm tra hiển thị
-
-```ts
-await expect(locator).toBeVisible();
-```
-
-### Kiểm tra không hiển thị
-
-```ts
-await expect(locator).toBeHidden();
-```
-
-### Kiểm tra enabled
-
-```ts
-await expect(locator).toBeEnabled();
-```
-
-### Kiểm tra attribute
-
-```ts
-await expect(locator).toHaveAttribute('type', 'password');
-```
-
-### Kiểm tra chính xác nội dung text
-
-```ts
-await expect(locator).toHaveText('Expected text');
-```
-
-### Click
-
-```ts
-await locator.click();
-```
-
----
-
-## 5. Sản phẩm cần có
+## 4. Sản phẩm cần có
 
 - File `tests/login-gui.spec.ts` đã hoàn thành.
 - Kết quả chạy test hiển thị **3 passed**; nếu chưa pass, giữ nguyên kết quả lỗi để cùng phân tích khi chữa bài.
