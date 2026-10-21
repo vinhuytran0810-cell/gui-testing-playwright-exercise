@@ -43,3 +43,10 @@ Mở Terminal và chạy:
 
 ```bash
 npm test
+```
+Để thực thi test.
+
+```bash
+npm run report
+```
+Để xem báo cáo trực quan của test chạy gần nhất.
