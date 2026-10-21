@@ -2,7 +2,7 @@
 
 Bài thực hành kiểm thử GUI trang Login của SauceDemo bằng Playwright.
 
-- Thời gian: 20 phút
+- Thời gian: 30 phút
 - Hình thức: Làm theo cặp
 - Website: https://www.saucedemo.com/
 
