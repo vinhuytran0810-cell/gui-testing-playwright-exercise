@@ -1,6 +1,6 @@
 # Bài tập thực hành: Kiểm thử GUI trang Login bằng Playwright
 
-**Thời gian:** 20 phút  
+**Thời gian:** 30 phút  
 **Hình thức:** Làm theo cặp  
 **Website:** https://www.saucedemo.com/  
 **Công cụ:** Playwright
@@ -59,7 +59,6 @@ Epic sadface: Password is required
 
 Sau GUI-02 hoặc GUI-03, khi nhấn nút **X**, banner lỗi phải biến mất.
 
-> `standard_user` là tài khoản demo công khai. Bài này không cần sử dụng mật khẩu hợp lệ.
 
 ---
 
@@ -109,8 +108,6 @@ Kết quả mong đợi:
 ```text
 3 passed
 ```
-
-Nếu test fail, đọc phần `Expected` / `Received` để xác định TODO nào chưa đúng. Không xóa assertion hoặc thay đổi expected chỉ để làm test PASS.
 
 ---
 
